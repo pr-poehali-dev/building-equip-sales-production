@@ -17,13 +17,11 @@ const Index = () => {
   const equipment = [
     { id: 1, name: 'Экскаватор гусеничный JCB JS220', category: 'excavators', price: 8500000, power: '160 л.с.', weight: '22 т', image: '🏗️' },
     { id: 2, name: 'Бульдозер Caterpillar D6T', category: 'bulldozers', price: 12000000, power: '215 л.с.', weight: '20 т', image: '🚜' },
-    { id: 3, name: 'Автокран Liebherr LTM 1050', category: 'cranes', price: 15000000, power: '408 л.с.', capacity: '50 т', image: '🏗️' },
     { id: 4, name: 'Компрессор Atlas Copco XATS 156', category: 'compressors', price: 850000, pressure: '14 бар', capacity: '15.6 м³/мин', image: '⚙️' },
     { id: 5, name: 'Сварочный аппарат KEMPPI FastMig X 450', category: 'welding', price: 320000, current: '450 А', type: 'MIG/MAG', image: '🔧' },
     { id: 6, name: 'Бетономешалка Лебедянь СБР-260', category: 'concrete', price: 180000, volume: '260 л', power: '1.5 кВт', image: '🛠️' },
     { id: 7, name: 'Виброплита BOMAG BPR 35/60D', category: 'compaction', price: 420000, weight: '350 кг', power: '5.5 л.с.', image: '⚒️' },
     { id: 8, name: 'Генератор Cummins C550 D5', category: 'generators', price: 2800000, power: '550 кВА', fuel: 'дизель', image: '⚡' },
-    { id: 9, name: 'Автокран КС-72', category: 'cranes', price: 18500000, power: '330 л.с.', capacity: '72 т', image: '🏗️' },
   ];
 
   const metalProducts = [
