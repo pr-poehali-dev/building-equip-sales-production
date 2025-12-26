@@ -23,6 +23,7 @@ const Index = () => {
     { id: 6, name: 'Бетономешалка Лебедянь СБР-260', category: 'concrete', price: 180000, volume: '260 л', power: '1.5 кВт', image: '🛠️' },
     { id: 7, name: 'Виброплита BOMAG BPR 35/60D', category: 'compaction', price: 420000, weight: '350 кг', power: '5.5 л.с.', image: '⚒️' },
     { id: 8, name: 'Генератор Cummins C550 D5', category: 'generators', price: 2800000, power: '550 кВА', fuel: 'дизель', image: '⚡' },
+    { id: 9, name: 'Автокран КС-72', category: 'cranes', price: 18500000, power: '330 л.с.', capacity: '72 т', image: '🏗️' },
   ];
 
   const metalProducts = [
