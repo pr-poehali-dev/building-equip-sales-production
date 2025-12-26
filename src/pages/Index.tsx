@@ -63,8 +63,8 @@ const Index = () => {
             <div className="flex items-center gap-2">
               <div className="text-3xl">🏗️</div>
               <div>
-                <h1 className="text-xl font-bold text-primary">СтройМеталл</h1>
-                <p className="text-xs text-muted-foreground">Оборудование и металлоизделия</p>
+                <h1 className="text-xl font-bold text-primary">KS72.ru</h1>
+                <p className="text-xs text-muted-foreground">Автокраны и спецтехника</p>
               </div>
             </div>
             <div className="hidden md:flex gap-6">
@@ -100,13 +100,13 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <Badge className="mb-6 text-base px-6 py-2" variant="secondary">
               <Icon name="Award" size={18} className="mr-2" />
-              Строительное оборудование и металлопроизводство
+              Официальный сайт автокранов КС-72
             </Badge>
             <h2 className="text-5xl md:text-7xl font-extrabold mb-6 bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent">
-              Строительное оборудование и производство металлоизделий
+              Автокраны КС-72
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Продажа строительной техники от ведущих производителей и собственное производство металлоконструкций. Гарантия качества и полный спектр услуг.
+              Продажа, аренда и сервисное обслуживание автокранов КС-72. Официальный дилер с полным спектром услуг по спецтехнике.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg hover-scale" onClick={() => scrollToSection('catalog')}>
@@ -315,15 +315,15 @@ const Index = () => {
                 <Icon name="Building" size={16} className="mr-2" />
                 О компании
               </Badge>
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">СтройМеталл</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">KS72.ru</h2>
             </div>
             
             <Card>
               <CardContent className="pt-6">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg mb-4">
-                    Компания СтройМеталл работает на рынке строительного оборудования и производства металлоизделий с 2010 года. 
-                    Мы предлагаем качественную технику от ведущих производителей и выполняем заказы по металлообработке любой сложности.
+                    Компания KS72.ru специализируется на автокранах КС-72 с 2010 года. 
+                    Мы являемся официальным дилером и предоставляем полный спектр услуг: продажа новых и б/у кранов, аренда с экипажем, сервисное обслуживание и ремонт.
                   </p>
                   <div className="grid md:grid-cols-3 gap-6 my-8">
                     <div className="text-center">
@@ -331,8 +331,8 @@ const Index = () => {
                       <div className="text-muted-foreground">лет на рынке</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-4xl font-bold text-secondary mb-2">200+</div>
-                      <div className="text-muted-foreground">единиц техники</div>
+                      <div className="text-4xl font-bold text-secondary mb-2">80+</div>
+                      <div className="text-muted-foreground">автокранов КС-72</div>
                     </div>
                     <div className="text-center">
                       <div className="text-4xl font-bold text-primary mb-2">1000+</div>
@@ -340,9 +340,9 @@ const Index = () => {
                     </div>
                   </div>
                   <p className="text-lg">
-                    Мы поставляем сертифицированное оборудование от мировых брендов: Caterpillar, JCB, Liebherr, Atlas Copco, KEMPPI. 
-                    Собственное производство позволяет изготавливать металлоконструкции для ангаров, лестницы, резервуары, 
-                    ворота и другие изделия по индивидуальным проектам в кратчайшие сроки.
+                    В нашем автопарке представлены все модификации КС-72: от базовых моделей до полноприводных версий с различной длиной стрелы. 
+                    Также предлагаем краны других производителей: Liebherr, Grove, Terex. Предоставляем услуги аренды с опытными крановщиками, 
+                    выполняем техническое обслуживание, капитальный ремонт и модернизацию кранов.
                   </p>
                 </div>
               </CardContent>
@@ -520,8 +520,8 @@ const Index = () => {
                     <Icon name="Mail" size={20} className="text-primary mt-1" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-muted-foreground">info@stroymetal.ru</p>
-                      <p className="text-muted-foreground">sales@stroymetal.ru</p>
+                      <p className="text-muted-foreground">info@ks72.ru</p>
+                      <p className="text-muted-foreground">sales@ks72.ru</p>
                     </div>
                   </div>
                   
@@ -582,12 +582,12 @@ const Index = () => {
               <div className="flex items-center gap-2 mb-4">
                 <div className="text-3xl">🏗️</div>
                 <div>
-                  <h3 className="font-bold text-lg">СтройМеталл</h3>
+                  <h3 className="font-bold text-lg">KS72.ru</h3>
                   <p className="text-xs text-slate-400">С 2010 года</p>
                 </div>
               </div>
               <p className="text-sm text-slate-400">
-                Надежный партнер в сфере строительного оборудования и металлопроизводства
+                Официальный дилер автокранов КС-72 и спецтехники
               </p>
             </div>
             
@@ -615,14 +615,14 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm text-slate-400">
                 <li>+7 (495) 123-45-67</li>
-                <li>info@stroymetal.ru</li>
+                <li>info@ks72.ru</li>
                 <li>Москва, ул. Промышленная, 15</li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-slate-400">
-            <p>© 2024 СтройМеталл. Строительное оборудование и металлоизделия. Все права защищены.</p>
+            <p>© 2024 KS72.ru | Автокраны КС-72 и спецтехника. Все права защищены.</p>
           </div>
         </div>
       </footer>
