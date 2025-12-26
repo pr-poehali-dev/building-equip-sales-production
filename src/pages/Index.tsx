@@ -65,8 +65,8 @@ const Index = () => {
             <div className="flex items-center gap-2">
               <div className="text-3xl">🏗️</div>
               <div>
-                <h1 className="text-xl font-bold text-primary">СтройТехМаш</h1>
-                <p className="text-xs text-muted-foreground">Оборудование и металлоизделия</p>
+                <h1 className="text-xl font-bold text-primary">КС-72</h1>
+                <p className="text-xs text-muted-foreground">Автокраны и спецтехника</p>
               </div>
             </div>
             <div className="hidden md:flex gap-6">
@@ -102,13 +102,13 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <Badge className="mb-6 text-base px-6 py-2" variant="secondary">
               <Icon name="Award" size={18} className="mr-2" />
-              15 лет на рынке строительного оборудования
+              Специализация на автокранах КС-72
             </Badge>
             <h2 className="text-5xl md:text-7xl font-extrabold mb-6 bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent">
-              Строительное оборудование мирового класса
+              Автокраны КС-72 и спецтехника
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Продажа техники от ведущих производителей и собственное производство металлоконструкций. Гарантия качества и сервисное обслуживание.
+              Продажа и аренда автокранов КС-72, обслуживание и ремонт спецтехники. Быстрая доставка по всей России.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg hover-scale" onClick={() => scrollToSection('catalog')}>
@@ -317,24 +317,24 @@ const Index = () => {
                 <Icon name="Building" size={16} className="mr-2" />
                 О компании
               </Badge>
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">СтройТехМаш</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">КС-72</h2>
             </div>
             
             <Card>
               <CardContent className="pt-6">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg mb-4">
-                    Компания СтройТехМаш работает на рынке строительного оборудования и металлоконструкций с 2008 года. 
-                    За это время мы стали надежным партнером для сотен строительных компаний по всей России.
+                    Компания КС-72 специализируется на продаже, аренде и обслуживании автокранов с 2010 года. 
+                    Мы являемся официальным дилером и предоставляем полный спектр услуг по спецтехнике.
                   </p>
                   <div className="grid md:grid-cols-3 gap-6 my-8">
                     <div className="text-center">
-                      <div className="text-4xl font-bold text-primary mb-2">15+</div>
+                      <div className="text-4xl font-bold text-primary mb-2">14+</div>
                       <div className="text-muted-foreground">лет на рынке</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-4xl font-bold text-secondary mb-2">500+</div>
-                      <div className="text-muted-foreground">единиц техники</div>
+                      <div className="text-4xl font-bold text-secondary mb-2">50+</div>
+                      <div className="text-muted-foreground">автокранов в наличии</div>
                     </div>
                     <div className="text-center">
                       <div className="text-4xl font-bold text-primary mb-2">1000+</div>
@@ -342,9 +342,9 @@ const Index = () => {
                     </div>
                   </div>
                   <p className="text-lg">
-                    Мы предлагаем только сертифицированное оборудование от мировых лидеров: Caterpillar, JCB, Liebherr, 
-                    KEMPPI и других производителей. Собственное производство металлоконструкций позволяет выполнять 
-                    заказы любой сложности в кратчайшие сроки.
+                    Наш автопарк включает автокраны КС-72 различных модификаций, а также технику от ведущих 
+                    производителей: Liebherr, Grove, Terex. Предоставляем услуги аренды с экипажем и без, 
+                    полное сервисное обслуживание и гарантийный ремонт.
                   </p>
                 </div>
               </CardContent>
@@ -522,8 +522,8 @@ const Index = () => {
                     <Icon name="Mail" size={20} className="text-primary mt-1" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-muted-foreground">info@stroytechmash.ru</p>
-                      <p className="text-muted-foreground">sales@stroytechmash.ru</p>
+                      <p className="text-muted-foreground">info@ks72.ru</p>
+                      <p className="text-muted-foreground">sales@ks72.ru</p>
                     </div>
                   </div>
                   
@@ -584,12 +584,12 @@ const Index = () => {
               <div className="flex items-center gap-2 mb-4">
                 <div className="text-3xl">🏗️</div>
                 <div>
-                  <h3 className="font-bold text-lg">СтройТехМаш</h3>
-                  <p className="text-xs text-slate-400">С 2008 года</p>
+                  <h3 className="font-bold text-lg">КС-72</h3>
+                  <p className="text-xs text-slate-400">С 2010 года</p>
                 </div>
               </div>
               <p className="text-sm text-slate-400">
-                Надежный партнер в сфере строительного оборудования и металлоконструкций
+                Надежный партнер в сфере автокранов и спецтехники
               </p>
             </div>
             
@@ -617,14 +617,14 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm text-slate-400">
                 <li>+7 (495) 123-45-67</li>
-                <li>info@stroytechmash.ru</li>
+                <li>info@ks72.ru</li>
                 <li>Москва, ул. Промышленная, 15</li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-slate-400">
-            <p>© 2024 СтройТехМаш. Все права защищены.</p>
+            <p>© 2024 КС-72.ру | Автокраны и спецтехника. Все права защищены.</p>
           </div>
         </div>
       </footer>
